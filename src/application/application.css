@@ -1,0 +1,145 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/*Welcome Screen */
+.pane{
+	-fx-background-color:black ;
+}
+.button{
+	-fx-background-color:transparent ;
+	/*-fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%); */
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 7 , 15 );
+    -fx-text-fill: #395306;
+	-fx-font-size:20;
+	
+}
+.button:hover{
+	-fx-background-color:transparent ;
+	/*-fx-background-color:
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));*/
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 7 , 15 );
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 20px;
+    -fx-padding: 10 20 10 20;
+}
+.progress{
+	-fx-text-fill:white ;
+}
+
+/*Student Screen */
+.spane{
+	-fx-text-fill:white;
+}
+.smenubar{
+	-fx-font-size:17;
+	-fx-background-color:rgb(23,120,139);
+	
+	-fx-alignment:baseline-right ;
+}
+.slist{
+	-fx-font-size:20;
+	-fx-alignment:center ;
+	-fx-background-color:rgb(0,131,203);
+}
+.smenu{
+	-fx-alignment:right ;
+	
+}
+.sbutton{
+	-fx-background-color:transparent ;
+	-fx-border-radius:35px;
+	-fx-background-radius:35px;
+}
+.sbutton:hover{
+	-fx-background-color:transparent;
+	-fx-border-radius:35px;
+	-fx-background-radius:35px;
+}
+.stool{
+	-fx-font-size:17;
+	-fx-background-color:rgb(77,167,67);
+	-fx-alignment:center ;
+	
+}
+.sb2{
+	-fx-font-size:15;
+	-fx-text-fill:white;
+	-fx-border-radius:1px;
+	
+}
+.sb2:hover{
+	-fx-background-color:rgb(20,220,61);
+}
+.st{
+	-fx-background-radius:10px;
+	-fx-font-size:18;
+}
+
+/*Log in Screen */
+.lpane{
+	-fx-background-color:black;
+}
+.lvbox{
+	-fx-background-color:transparent ;
+	-fx-padding:10;
+	-fx-spacing:10px;
+	-fx-background-radius:10;
+	
+	-fx-border-width:4px;
+}
+.ltex{
+	-fx-font-size:20;
+	-fx-background-radius:5px;
+	
+}
+.lbut{
+	
+	-fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%); 
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 7 , 15 );
+    -fx-text-fill: #395306;
+	-fx-font-size:20;
+}
+.lbut:hover{
+	
+	-fx-background-color:
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 7 , 15 );
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 20px;
+    -fx-padding: 10 20 10 20;
+}
+.ltext{
+	-fx-font-size:15;
+	-fx-background-radius:5px;
+	
+}
+.label{
+	-fx-font-size:20;
+	
+}
+.round{
+	-fx-background-radius:75px;
+	-fx-background-color:transparent ;
+}
+.big{
+	-fx-font-size:35px;
+	-fx-text-fill:green ;
+}
